@@ -1,6 +1,6 @@
 
 function veriEdad() {
-        let edad = prompt ("ingresa tu edad")
+        let edad = prompt ("Ingresa tu edad")
         if (edad >= 18){
             calculadora()
         }else{
@@ -20,12 +20,11 @@ function calculadora() {
     if (operacion === "+"){
     resultado = numero1 + numero2
     alert("el resultado es " + resultado)
-    contador++
-    
+
     }else if(operacion === "-"){
     
-        resultado = numero1 / numero2
-        alert("el resultado es " + resultado)
+        resultado = numero1 - numero2
+        parseFloat(alert("el resultado es " + resultado))
         return
         
     
@@ -38,13 +37,13 @@ function calculadora() {
     
     }else if(operacion === "/"){
     
-        resultado = numero1 - numero2
+        resultado = numero1 / numero2
         alert("el resultado es " + resultado)
         return
     
     
     }
-   
+
 } while (numero1 && numero2 && operacion) 
         alert("debe ingresar todos los datos")
     
