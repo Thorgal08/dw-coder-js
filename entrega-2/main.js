@@ -1,4 +1,4 @@
-// CATALOGO DE REVISTAS CLUB NINTENDO
+//* CATALOGO DE REVISTAS CLUB NINTENDO *//
 
 alert("Bienvenido al catálogo de Revista Club Nintendo");
 
