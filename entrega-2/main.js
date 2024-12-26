@@ -12,23 +12,23 @@ class Revista {
   }
 }
 
-// Catálogo de revistas
+//* Catálogo de revistas *//
 const catalogoRevistas = [
-  new Revista("Entra al mundo de la acción total", 1992, "enero", 1),
-  new Revista("Entra al mundo de la acción total", 1992, "febrero", 2),
-  new Revista("Entra al mundo de la acción total", 1992, "marzo", 3),
-  new Revista("Entra al mundo de la acción total", 1992, "abril", 4),
-  new Revista("Entra al mundo de la acción total", 1992, "mayo", 5),
-  new Revista("Entra al mundo de la acción total", 1993, "enero", 13),
-  new Revista("Entra al mundo de la acción total", 1993, "febrero", 14),
-  new Revista("Entra al mundo de la acción total", 1993, "marzo", 15),
-  new Revista("Entra al mundo de la acción total", 1993, "abril", 16),
-  new Revista("Entra al mundo de la acción total", 1993, "mayo", 17),
-  new Revista("Entra al mundo de la acción total", 1994, "enero", 25),
-  new Revista("Entra al mundo de la acción total", 1994, "febrero",26),
-  new Revista("Entra al mundo de la acción total", 1994, "marzo", 27),
-  new Revista("Entra al mundo de la acción total", 1994, "abril", 28),
-  new Revista("Entra al mundo de la acción total", 1994, "mayo", 29)
+  new Revista("Edición numero 1 de la revista", 1991, "enero", 1),
+  new Revista("Especial de super mario world", 1991, "febrero", 2),
+  new Revista("Tiny toons, los picapiedras, ghost & ghoblins", 1991, "marzo", 3),
+  new Revista("Especial sobre los simpsons ", 1991, "abril", 4),
+  new Revista("Megaman 4 smash tv d-force", 1991, "mayo", 5),
+  new Revista("Batman Return, The legend Of Zelda Super Mario Kart", 1992, "enero", 14),
+  new Revista("Tiny Toons, Punch out, Robocop III", 1992, "febrero", 15),
+  new Revista("Super FX : Reportaje gigante", 1992, "marzo", 16),
+  new Revista("Starfox, Taz-Mania", 1992, "abril", 17),
+  new Revista("Bubsy, Batman Returns, Cybernator, Alien", 1992, "mayo", 18),
+  new Revista("Mega Man X :Conoce a Mega Man", 1993, "enero", 26),
+  new Revista("Super Metroid, Tetris2, Lethal Enforces", 1993, "febrero",27),
+  new Revista("NBA JAM T.M.N.T Radical rescue", 1993, "marzo", 28),
+  new Revista("El nuevo hit de las Arcadias : Street II Turbos ", 1993, "abril", 29),
+  new Revista("Super Gameboy ", 1993, "mayo", 30)
 ];
 
 // Función para filtrar las revistas por el criterio seleccionado
